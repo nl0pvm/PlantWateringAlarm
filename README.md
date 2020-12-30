@@ -1,10 +1,14 @@
 PlantWateringAlarm
 ==================
 
-A soil moisture level sensor based on ATTINY44. Uses capacitive sensing.
+A more stable I2C-only improved implementation for the chirp! sensor you can find at http://wemakethings.net/chirp
 
-[![](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png)](https://www.tindie.com/products/373/)
+This software includes:
+- Temperature reading (implemented only for the ATTINY44A)
+- Continous interupt based measurements
+- Rolling average buffer (smoothing) using (https://github.com/pilotak/MovingAverage)
+- Status led
+- extended I2C command list (For ESPEASY integration)
 
-More info at http://wemakethings.net/chirp
 
-Contact: mic a wemakethings.net
+
