@@ -1,4 +1,4 @@
-PlantWateringAlarm
+Chirp! PlantWateringAlarm i2c only
 ==================
 
 A more stable I2C-only improved implementation for the chirp! sensor you can find at http://wemakethings.net/chirp
